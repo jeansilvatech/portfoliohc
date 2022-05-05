@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9a7e4ca02b.js" crossorigin="anonymous"></script>
+    
+    <title>Jean Silva - Portifolio</title>
+    <link rel="icon" type="image/x-icon" href="./logojs.png">
+</head>
+<body>
+    <header>
+    <div>
+        <img src="./logojs.png" alt="Logo Jean Silva">
+    </div>
+
+      <ul>
+            <li><a target="_blank" href="mailto:jeanpsilva10@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+          <li><a target="_blank" href="github.com/jeansilvatech"><i class="fa-brands fa-github"></i></a> </li>
+          <li><a target="_blank" href="linkedin.com/in/jeanpesil"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a target="_blank" href="twitter.com/jeanpesil"><i class="fa-brands fa-twitter"></i></a> </li>
+          <li><a target="_blank" href="instagram.com/jeanpesil"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a target="_blank" href="facebook.com/jeanpesil"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a target="_blank" href="https://wa.me/31971617192"><i class="fa-brands fa-whatsapp"></i></a></li>
+
+      </ul>  
+    </header>
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>Jean Silva</h1>
+                <h5>Computer Technician</h5>
+            </div>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-power-off"></i>
+            </div>
+            <div style="display:none;"id="about">
+                <p>
+                    Olá, sou um apaixonado por tecnologia, formado em Técnico em Informática pelo Centro Universitário UNA desde dezembro de 2015.
+                    Estou aqui mostrando meus trabalhos e projetos em desenvolvimento de softwares e Web Designer, sempre buscando mais conhecimento e adquirir experiência.
+                </p>
+            </div>
+            
+            <div class="form">
+                <div>
+                    <p>
+                        Deixe seu contato!
+                    </p>
+                </div>
+                <form action="">
+                    <input type="email" name="email" id="" placeholder="Seu e-mail" required>
+                    <button>Enviar</button>
+                </form>
+
+            </div>
+        </section>
+        
+    </main>
+  <script>
+      function displayAbout(){
+          var arrow = document.getElementById('animation');
+          
+          arrow.classList.toggle('rotate');
+
+          var about = document.getElementById('about');
+          about.classList.toggle('active');
+          
+      }
+  </script>  
+</body>
+</html>
