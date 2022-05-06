@@ -55,6 +55,10 @@ header img{
 .container .name h5{
     font-size: 25px;
 }
+.container #arrow{
+	width: 10%;
+	margin-left: 45%;
+}
 #arrow{
     font-size: 30px;
     cursor: pointer;
@@ -70,7 +74,7 @@ header img{
 }
 .rotate{
     transform: rotate(360deg);
-    transition: none 300ms;
+    transition: 300ms;
 }
 .active{
     display: block !important;
