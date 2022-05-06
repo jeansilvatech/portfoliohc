@@ -66,11 +66,11 @@ header img{
    }
 }
 #animation{
-    transition: none 300ms;
+    transition: initial 300ms;
 }
 .rotate{
     transform: rotate(360deg);
-    transition: 300ms;
+    transition: none 300ms;
 }
 .active{
     display: block !important;
