@@ -122,10 +122,10 @@ header img{
 }
 @media  only screen and (max-width:480px){
     .container .name h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     .container .name h5{
-        font-size: 15px;
+        font-size: 20px;
     }
     #about p{
         max-width:80% ;
